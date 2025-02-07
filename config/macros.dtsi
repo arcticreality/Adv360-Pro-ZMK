@@ -34,36 +34,6 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-macro__Cut: macro__Cut{
-compatible = "zmk,behavior-macro";
-label = "macro__Cut";
-#binding-cells = <0>;
-bindings = <&kp LC(X)>;
-};
-macro__Copy: macro__Copy{
-compatible = "zmk,behavior-macro";
-label = "macro__Copy";
-#binding-cells = <0>;
-bindings = <&kp LC(C)>;
-};
-macro__Paste: macro__Paste{
-compatible = "zmk,behavior-macro";
-label = "macro__Paste";
-#binding-cells = <0>;
-bindings = <&kp LC(V)>;
-};
-macro__Select_All: macro__Select_All{
-compatible = "zmk,behavior-macro";
-label = "macro__Select_All";
-#binding-cells = <0>;
-bindings = <&kp LC(A)>;
-};
-macro__Undo: macro__Undo{
-compatible = "zmk,behavior-macro";
-label = "macro__Undo";
-#binding-cells = <0>;
-bindings = <&kp LC(Z)>;
-};
 macro__Desktop: macro__Desktop{
 compatible = "zmk,behavior-macro";
 label = "macro__Desktop";
